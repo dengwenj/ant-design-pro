@@ -79,6 +79,12 @@
     component: './TableList',
   },
   {
+    name: '权限管理',
+    path: '/access',
+    component: './Xx',
+    access: 'canXx'
+  },
+  {
     path: '/',
     redirect: '/welcome',
   },
