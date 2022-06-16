@@ -108,6 +108,10 @@ const Dengwj: React.FC = () => {
         }}
         editable={{
           type: 'multiple',
+          // 行保存的时候
+          onSave() {},
+          // 行删除时候
+          onDelete() {}
         }}
         onSubmit={handleSumit}
         pagination={{
